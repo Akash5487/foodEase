@@ -13,15 +13,6 @@ A cross-platform restaurant management application with real-time chat, built us
 * librdkafka (C/C++ library)
 * CMake
 
-**Installation**
-1. Clone the repository: git clone https://github.com/yourusername/FoodEase.git
-2. Install dependencies (Qt, librdkafka, CMake).
-3. Start Kafka and Zookeeper (see Kafka Setup).
-4. Build the project: mkdir build && cd build
-5. cmake ..
-6. make
-7. Run the application: ./FoodEase
-
 **Kafka Setup**
 1. Start Zookeeper: bin/zookeeper-server-start.sh config/zookeeper.properties
 2. Start Kafka: bin/kafka-server-start.sh config/server.properties
