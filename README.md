@@ -13,11 +13,6 @@ A cross-platform restaurant management application with real-time chat, built us
 * librdkafka (C/C++ library)
 * CMake
 
-**Kafka Setup**
-1. Start Zookeeper: bin/zookeeper-server-start.sh config/zookeeper.properties
-2. Start Kafka: bin/kafka-server-start.sh config/server.properties
-3. Create a topic: bin/kafka-topics.sh --create --topic chat-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
-
 **Usage**
 * Menu Tab: View the menu and place orders.
 * Chat Tab: Send and receive real-time messages.
